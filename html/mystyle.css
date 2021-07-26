@@ -1,0 +1,79 @@
+
+body {
+    background-color: white;
+    background-image: url(img.png);
+
+}
+Home{
+    color: rgb(222, 135, 161);
+
+
+}
+form {
+    align-self: center;
+}
+table{
+    align-self: left;
+}
+header{
+    background-color:transparent;
+}
+ul{
+    list-style: none;
+    font-size: larger;
+
+}
+ul li {
+    display: inline-block;
+    color: black;
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent;
+    padding: 10px 80px;
+    margin-inline-start: 80px ;
+    margin: left;   
+    
+}
+ul li a{
+    border: transparent;
+    padding: auto;
+
+}
+ul li a:hover{
+    background-color: olivedrab;
+    color: orangered;
+    tab-size: 80px;
+    text-transform: uppercase;
+    transition: step-end;
+    
+}
+.active{
+    position: 0px;
+    
+
+}
+img{
+    width: 140px;
+    height: 100px;
+    position: 80px;
+
+}
+
+
+.main{
+    
+    padding: auto;
+    margin: left;
+
+}
+label{
+    color: violet;
+    font-size: large;
+    position: top;
+
+}
+.send{
+    position: 50px;
+    -ms-flex-align: inherit;
+}
+
