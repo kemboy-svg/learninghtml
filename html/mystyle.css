@@ -1,79 +1,56 @@
-
-body {
-    background-color: white;
+body{
     background-image: url(img.png);
+    background-attachment: fixed;
 
-}
-Home{
-    color: rgb(222, 135, 161);
-
-
-}
-form {
-    align-self: center;
-}
-table{
-    align-self: left;
 }
 header{
-    background-color:transparent;
+    
+    border-top: 50px;
+    border-bottom: 20px;
+
 }
-ul{
+.main ul li{
     list-style: none;
-    font-size: larger;
-
+    float: left;
+    padding-right: 160px;
+    background-color: brown;
+    border-width: thick;
+    border-radius: 20px;
+    border-collapse: separate,50px;
+    color: transparent;
 }
-ul li {
-    display: inline-block;
-    color: black;
-    border-style: solid;
-    border-width: 10px;
-    border-color: transparent;
-    padding: 10px 80px;
-    margin-inline-start: 80px ;
-    margin: left;   
+.main .active{
+    color: antiquewhite;
+}
+.images{
+    display: none;
+}
+
+
+
+.main ul li:hover{
+    text-transform: capitalize;
     
 }
-ul li a{
-    border: transparent;
-    padding: auto;
+
+.sub-menu{
+display: none;
 
 }
-ul li a:hover{
-    background-color: olivedrab;
-    color: orangered;
-    tab-size: 80px;
-    text-transform: uppercase;
-    transition: step-end;
-    
+.about:hover .sub-menu{
+    display: block;
 }
-.active{
-    position: 0px;
-    
+.about:hover .sub-menu ul{
+    display: block;
 
 }
-img{
-    width: 140px;
-    height: 100px;
-    position: 80px;
-
+.img{
+    width: 80px;
+    height: 80px;
 }
-
-
-.main{
-    
-    padding: auto;
-    margin: left;
-
+.span{
+    filter: hue-rotate(240deg);
+}  
+.overflow{
+    overflow: scroll;
 }
-label{
-    color: violet;
-    font-size: large;
-    position: top;
-
-}
-.send{
-    position: 50px;
-    -ms-flex-align: inherit;
-}
-
